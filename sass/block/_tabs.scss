@@ -1,0 +1,115 @@
+.tabs__item {
+    color: #e6edf3;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.tabs__content-block {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+    border: 1.4px solid #30363d;
+    background: #0d1117;
+    padding: 17px;
+    max-width: 440px;
+
+    .tabs__content-content {
+        a {
+            color: #2f81f7;
+            padding-bottom: 25px;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 21px; /* 150% */
+        }
+        p {
+            color: #7d8590;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px; /* 150% */
+        }
+    }
+
+    .tabs__content-public {
+        p {
+            color: #7d8590;
+            border-radius: 24px;
+            border: 1px solid #30363d;
+            font-size: 11px;
+            font-weight: 500;
+            line-height: 18px; /* 163.636% */
+            padding: 2px 8px;
+        }
+    }
+}
+
+.tabs__content-title {
+    color: #e6edf3;
+    font-size: 15px;
+    padding-bottom: 8px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.tabs__content {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+.tabs__followers {
+    display: flex;
+}
+
+.followers__img {
+    max-width: 296px;
+    img {
+        border-radius: 50%;
+    }
+    padding-bottom: 16px;
+}
+
+.tabs__container {
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.tabs__content-list {
+    padding: 10px;
+    border-bottom: 2px solid #30363d;
+    border-top: 2px solid #30363d;
+    max-width: 455px;
+
+    a {
+        color: #2f81f7;
+        padding-bottom: 7px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 21px; /* 150% */
+    }
+
+    p {
+        color: #7d8590;
+
+        font-size: 20px;
+
+        font-weight: 300;
+        line-height: 24px; /* 120% */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tabs__content {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 394px) {
+    .tabs__followers {
+        display: block;
+    }
+}

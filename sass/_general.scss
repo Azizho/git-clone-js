@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d1117;
+    font-family: "Noto Sans", sans-serif;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    display: none;
+}
+
+.notfound {
+    color: red;
+    display: none;
+    text-align: center;
+}

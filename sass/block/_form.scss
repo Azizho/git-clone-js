@@ -1,0 +1,33 @@
+.get-form__form {
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        outline: none;
+    }
+
+    button {
+        width: 100%;
+        outline: none;
+        border: none;
+
+        padding: 10px;
+        background-color: aqua;
+        cursor: pointer;
+        margin-top: 10px;
+
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: rgb(59, 164, 164);
+        }
+    }
+}

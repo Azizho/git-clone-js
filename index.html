@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="get-form">
+            <h2 class="notfound">404 Error</h2>
+            <form class="get-form__form">
+                <input type="text" placeholder="User Name" required />
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div class="content">
+            <header id="header">
+                <div class="header__container">
+                    <ul class="header__list-1">
+                        <li class="header__item-1">
+                            <a href="http://github.com" target="_blank"
+                                ><img src="./img/github.svg" alt="logo"
+                            /></a>
+                        </li>
+                        <li class="header__item-1 header__search-item">
+                            <input
+                                type="text"
+                                placeholder="Search or jupm to..."
+                                class="header__search"
+                            />
+                        </li>
+                    </ul>
+                    <ul class="header__list-2">
+                        <li class="header__item-2">
+                            <div class="header__item-image">
+                                <img src="./img/uved.svg" alt="uvedomleniya" />
+                            </div>
+                        </li>
+                        <li class="header__item-2">
+                            <div class="header__item-plus">
+                                <svg
+                                    width="63"
+                                    height="30"
+                                    viewBox="0 0 63 30"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M30 17.1429H17.1429V30H12.8571V17.1429H0V12.8571H12.8571V0H17.1429V12.8571H30V17.1429Z"
+                                        fill="white"
+                                    />
+                                </svg>
+                            </div>
+                        </li>
+                        <li class="header__item-2">
+                            <div class="header__item-profile"></div>
+                        </li>
+                    </ul>
+                    <h2 class="header__list-title">...</h2>
+                </div>
+            </header>
+            <main>
+                <section id="head-tab">
+                    <div class="container head-tab__container">
+                        <ul class="tabs__list"></ul>
+                    </div>
+                </section>
+                <section id="tabs__followers">
+                    <div class="tabs__followers container">
+                        <div class="followers__container">
+                            <div class="followers__img"></div>
+                            <h2 class="followers__title"></h2>
+                        </div>
+                        <div class="tabs__container">
+                            <p class="tabs__content-title">
+                                Popular repositories
+                            </p>
+                            <div class="tabs__content"></div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <script src="./Js/main.js"></script>
+    </body>
+</html>
